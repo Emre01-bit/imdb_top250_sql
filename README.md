@@ -22,4 +22,4 @@ This project uses PostgreSQL to explore and analyze the IMDb Top 250 Movies data
 
 ## 📈 Tableau
 Here are my visuals created with Tableau:
-[View Interactive Dashboard on Tableau Publc](https://public.tableau.com/static/images/IM/IMDb_Top250_Project/Dashboard1/1.png(
+[View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/IMDb_Top250_Project/IMDb_Project)
