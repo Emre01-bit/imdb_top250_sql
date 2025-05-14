@@ -1,0 +1,7 @@
+-- Task: How many movies were released between 1995 and 2005, including both years.
+-- Output:
+-- 56 movies
+
+-- Code:
+SELECT COUNT(year) FROM imdb_movies
+WHERE year BETWEEN 1995 AND 2005;
