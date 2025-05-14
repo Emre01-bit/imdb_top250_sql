@@ -1,4 +1,4 @@
-CREATE TABLE movies(
+CREATE TABLE imdb_movies(
    rank INTEGER,
    name TEXT,
    year INTEGER,
