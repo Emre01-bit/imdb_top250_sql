@@ -1,0 +1,17 @@
+-- Task: Top 10 movies with the highest IMDb rating
+-- Output:
+-- 1.  The Shawshank Redemption                          | 9.3
+-- 2.  The Godfather                                     | 9.2
+-- 3.  Schindler's List                                  | 9
+-- 4.  12 Angry Men                                      | 9
+-- 5.  The Dark Knight                                   | 9
+-- 6.  The Lord of the Rings: The Return of the King     | 9
+-- 7.  The Godfather Part II                             | 9
+-- 8.  Pulp Fiction                                      | 8.9
+-- 9.  The Good, the Bad and the Ugly                    | 8.8
+-- 10. The Lord of the Rings: The Fellowship of the Ring | 8.8
+
+-- Code:
+SELECT name, rating FROM imdb_movies
+ORDER BY rating DESC
+LIMIT 10;
