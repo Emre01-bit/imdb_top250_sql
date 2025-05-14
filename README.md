@@ -8,3 +8,4 @@ This project uses PostgreSQL to explore and analyze the IMDb Top 250 Movies data
 - Source: [IMDb Top 250 Movie] (https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset)
 - Columns: rank, name, year, rating, genre, certificate, run_time, tagline, budget, box_office, casts, 
            directors,  writers
+- Table name: "imdb_movies"
