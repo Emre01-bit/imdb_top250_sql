@@ -1,23 +1,21 @@
-```
 -- Task: How frequently do the certificates (age ratings) appear?
 -- Output:
--- R              97
--- PG	            37
--- PG-13	        35
--- Not Rated	    24
--- G	            19
--- Passed	        16
--- Approved	      14
--- X	            1
--- 18+	          1
--- TV-MA	        1
--- Not Available	1
--- 13+	          1
--- GP	            1
--- TV-PG	        1
+-- R              |97
+-- PG	            |37
+-- PG-13	        |35
+-- Not Rated	    |24
+-- G	            |19
+-- Passed	        |16
+-- Approved	      |14
+-- X	            |1
+-- 18+	          |1
+-- TV-MA	        |1
+-- Not Available	|1
+-- 13+	          |1
+-- GP	            |1
+-- TV-PG	        |1
 
 -- Code:
 SELECT certificate AS rating, COUNT(certificate) AS count_rating FROM imdb_movies
 GROUP BY certificate
 ORDER BY COUNT(certificate) DESC;
-```
