@@ -9,3 +9,7 @@ This project uses PostgreSQL to explore and analyze the IMDb Top 250 Movies data
 - Columns: rank, name, year, rating, genre, certificate, run_time, tagline, budget, box_office, casts, 
            directors,  writers
 - Table name: "imdb_movies"
+
+## Analyses
+- Top 10 highest rated movies
+- More coming soon
