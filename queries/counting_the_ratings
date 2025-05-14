@@ -1,4 +1,6 @@
+```text
 -- Task: How frequently do the certificates (age ratings) appear?
+
 -- Output:
 -- R              |97
 -- PG	            |37
@@ -19,3 +21,4 @@
 SELECT certificate AS rating, COUNT(certificate) AS count_rating FROM imdb_movies
 GROUP BY certificate
 ORDER BY COUNT(certificate) DESC;
+```
