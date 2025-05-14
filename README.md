@@ -13,4 +13,5 @@ This project uses PostgreSQL to explore and analyze the IMDb Top 250 Movies data
 ## Analyses
 - Top 10 highest rated movies
 - Movies released between 1995 and 2005
+- Frequency of certificates (age ratings) of movies
 - More coming soon
