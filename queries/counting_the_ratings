@@ -1,6 +1,6 @@
 -- Task: How frequently do the certificates (age ratings) appear?
 -- Output:
--- R	            97
+-- R              97
 -- PG	            37
 -- PG-13	        35
 -- Not Rated	    24
