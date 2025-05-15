@@ -10,7 +10,11 @@
 | Akira Kurosawa    |   7    |
 
 -- Code:
-SELECT directors, COUNT(directors) AS amount FROM imdb_movies
-GROUP BY directors
-ORDER BY COUNT(directors) DESC
+SELECT TRIM(director_name) AS director, COUNT(*) AS amount
+FROM (
+SELECT UNNEST(STRING_TO_ARRAY(directors, ',')) AS director_name 
+FROM imdb_movies
+) AS directors_split
+GROUP BY director
+ORDER BY amount DESC
 LIMIT 5;
