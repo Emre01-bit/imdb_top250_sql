@@ -1,13 +1,13 @@
 -- Task: Which 5 directors have to most movies in the dataset?
 
 --Output:
-| director          | amount |
-|:------------------|-------:|
-| Stanley Kubrick   |7       |
-| Martin Scorsese   |7       |
-| Christopher Nolan |7       |
-| Steven Spielberg  |7       |
-| Akira Kurosawa    |7       |
+|     director      | amount |
+|-------------------|--------|
+| Stanley Kubrick   |   7    |
+| Martin Scorsese   |   7    |
+| Christopher Nolan |   7    |
+| Steven Spielberg  |   7    |
+| Akira Kurosawa    |   7    |
 
 -- Code:
 SELECT directors, COUNT(directors) AS amount FROM imdb_movies
